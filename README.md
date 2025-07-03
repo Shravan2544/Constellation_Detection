@@ -55,7 +55,7 @@ nvidia-smi
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/constellation-detection.git
+git clone https://github.com/Shravan2544/Constellation_Detection.git
 cd constellation-detection
 ```
 
@@ -141,10 +141,8 @@ yolo predict model=path/to/best.pt source=path/to/images/
 
 | Metric | Faster R-CNN | YOLOv12s | Winner |
 |--------|--------------|----------|---------|
-| **mAP@0.5** | TBD* | TBD* | - |
-| **mAP@0.5:0.95** | TBD* | TBD* | - |
+| **mAP@0.5** | 55 | 82 | YOLOv12s |
 | **Inference Speed** | 0.2 FPS | 45 FPS | YOLOv12s |
-| **Training Time** | 8-12 hours | 3-5 hours | YOLOv12s |
 | **Model Size** | 160MB | 40MB | YOLOv12s |
 
 *\*Results will be updated after training completion*
@@ -182,7 +180,7 @@ constellation-detection/
 │
 ├── README.md                   # This file
 ├── MODEL_COMPARISON.md         # Detailed model comparison
-└── LICENSE                     # MIT License
+
 ```
 
 ## 🔧 Configuration
@@ -271,18 +269,6 @@ flake8 .
 pytest tests/
 ```
 
-### Contributing Guidelines
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📚 Documentation
-
-- **[Model Comparison](MODEL_COMPARISON.md)**: Detailed technical comparison
-- **[API Documentation](docs/api.md)**: Code documentation (coming soon)
-- **[Training Guide](docs/training.md)**: Advanced training tips (coming soon)
 
 ## 🔍 Troubleshooting
 
@@ -308,38 +294,7 @@ ann_file = 'dataset/_annotations.coco.json'
 pip install --upgrade -r requirements.txt
 ```
 
-## 🎯 Use Cases
 
-### Research Applications
-- Astronomical survey automation
-- Constellation catalog creation
-- Educational astronomy tools
-- Citizen science projects
-
-### Production Applications  
-- Mobile astronomy apps
-- Real-time sky observation
-- Automated telescope systems
-- Educational planetarium software
-
-## 🏆 Benchmarks
-
-### Hardware Requirements
-
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| **GPU** | 4GB VRAM | 8GB+ VRAM |
-| **RAM** | 8GB | 16GB+ |
-| **Storage** | 10GB | 50GB+ |
-| **CPU** | 4 cores | 8+ cores |
-
-### Performance Benchmarks
-
-| Dataset Size | Faster R-CNN Training | YOLOv12s Training |
-|--------------|----------------------|-------------------|
-| **Small (100 images)** | 30 minutes | 10 minutes |
-| **Medium (1000 images)** | 3 hours | 1 hour |
-| **Large (10000 images)** | 12 hours | 4 hours |
 
 ## 🤝 Acknowledgments
 
@@ -349,26 +304,5 @@ pip install --upgrade -r requirements.txt
 - **COCO** evaluation tools and format standards
 - The astronomy and computer vision communities
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/constellation-detection/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/constellation-detection/discussions)
-- **Email**: your.email@example.com
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/constellation-detection&type=Date)](https://star-history.com/#yourusername/constellation-detection&Date)
-
----
-
-<p align="center">
-  <strong>🌌 Exploring the cosmos through computer vision 🌌</strong>
-</p>
-
-<p align="center">
-  Made with ❤️ for the astronomy and AI communities
 </p>
